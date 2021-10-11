@@ -39,7 +39,7 @@
         
     ],
     "lang" : "en-us",
-    "start_url": "/pwa-travelnepal",  
+    "start_url": "/pwa-travelnepal/",  
     "display" :"standalone",
     "background_color": "white",
     "theme_color":"#3aafa9"
