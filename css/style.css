@@ -105,7 +105,7 @@ button.bg-primary:hover {
  }
 
  .card-img-wrap img{
-    border-radius: 50%;
+    border-radius: 10%;
  }
 
  .featured-wrapper {
@@ -136,6 +136,9 @@ button.bg-primary:hover {
      position:absolute;
  }
 
+ .list-title {
+     font-size: 20px;
+ }
 
 
  .footer {
@@ -149,13 +152,25 @@ button.bg-primary:hover {
  }
 
  .footer-menu {
-     padding: 10px 0; 
      text-align: center;
+     display: block;
  }
+
+ .footer-social-media {
+    text-align: center;
+    display: block;
+}  
+
  .footer-menu span {
-     padding-left:10px;
+     padding-left:5px;
  }
 
  .footer-copyright {
      text-align: center;
  }
+
+ .checked {
+     color: orange;
+ }
+
+ 
