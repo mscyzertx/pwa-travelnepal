@@ -12,6 +12,7 @@ window.onload= () => {
     navigator.setAppBadge(unreadCount).catch((error)=>{console.log(error);});
 } 
 
+// more info button of destination.html 
 function displayNotification() {
 
     Notification.requestPermission(status => {
