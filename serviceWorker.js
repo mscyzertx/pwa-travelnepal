@@ -33,3 +33,11 @@ self.addEventListener('fetch', function(e){
         })
     );
 });
+
+self.addEventListener('notificationclick', function(event) {
+    event.notification.close();
+    if (event.action === 'go') {
+      clients.openWindow('/destination.html');
+    } else if (event.action === 'dismiss') { 
+    } else { }
+  });

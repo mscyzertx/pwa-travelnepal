@@ -39,8 +39,24 @@
         
     ],
     "lang" : "en-us",
-    "start_url": "/pwa-travelnepal/",  
+    "start_url": "/index.html",  
     "display" :"standalone",
     "background_color": "white",
-    "theme_color":"#3aafa9"
+    "theme_color":"#3aafa9",
+    "shortcuts": [
+        {
+          "name": "Check New Destinations",
+          "short_name": "destination",
+          "description": "View the list of destinations",
+          "url": "/destination.html",
+          "icons": [{ "src": "images/travel-nepal-144.png", "sizes": "144x144" }]
+        },
+        {
+            "name": "Check About us",
+            "short_name": "About",
+            "description": "View about us",
+            "url": "/about.html",
+            "icons": [{ "src": "images/travel-nepal-144.png", "sizes": "144x144" }]
+          }
+        ]
 }
